@@ -170,7 +170,7 @@ color: #45525B;
 }
 .position
 {
-    ont-family: 'Poppins';
+    font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
@@ -197,13 +197,15 @@ font-size: 36px;
 line-height: 43px;
 /* identical to box height, or 120% */
 
-text-align: center;
-
 color: #45525B;
 }
 .text_align_center
 {
     text-align: center;
+}
+.pb15px
+{
+    padding-bottom: 15px;
 }
 .px18discription
 {
@@ -213,8 +215,6 @@ color: #45525B;
     font-size: 18px;
     line-height: 22px;
     /* or 120% */
-    
-    text-align: center;
     
     color: #6F7278;
     
@@ -272,7 +272,7 @@ line-height: 20px;
 
 letter-spacing: 2px;
 text-transform: uppercase;
-
+border: 1px solid rgba(255, 255, 255, 0.2);
 color: #45525B;
 }
 .item_lb
@@ -281,11 +281,9 @@ width: 260px;
 transition: 0.5s;
 padding: 21px;
 }
-.selected_lb
+.item_lb:hover
 {
     background: #FAFAFC;
-    border: 1px solid rgba(202, 204, 209, 0.2);
-    box-sizing: border-box;
     border-radius: 10px;
 }
 /* Секция 4 */
@@ -293,4 +291,102 @@ padding: 21px;
 {
     height: 600px;
     background: url(../img/png/index/section4.png) no-repeat center center/cover;
+}
+/* Секция 5 */
+.row_text
+{
+    width: 600px;
+    padding-bottom: 30px;
+}
+.wrapper
+{
+    padding: 100px 0px;
+}
+.item_block
+{
+    width: 380px;
+    height: 385px;
+    padding: 0px 0px 20px 0px;
+}
+.row_infomation
+{
+    display: flex;
+    justify-content: space-around;
+}
+.link_block:hover
+{
+    opacity: 0.7;
+}
+.item_information
+{
+    display: flex;
+    justify-content: space-between;
+}
+.pr10px
+{
+    padding-right: 10px;
+}
+.block_discription
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height, or 140% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    color: #6F7278;
+}
+.title_block
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+text-align: center;
+
+color: #45525B;
+}
+.pb20px
+{
+    padding-bottom: 20px;
+}
+.pb10px
+{
+    padding-bottom: 10px;
+}
+.link_block
+{
+    text-decoration: none;
+    color: #45525B;
+    transition: 0.5s;
+}
+.block_apartament
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Showbutton
+{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 200px;
+    justify-content: center;
+}
+.arrow_animate
+{
+    transition: 0.5s;
+}
+.arrow_animate:hover
+{
+    padding-right: 30px;
 }
