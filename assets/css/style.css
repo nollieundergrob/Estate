@@ -374,7 +374,7 @@ color: #45525B;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.Showbutton
+.Morebutton
 {
     display: flex;
     align-items: center;
@@ -389,4 +389,52 @@ color: #45525B;
 .arrow_animate:hover
 {
     padding-right: 30px;
+}
+/* Секция 6 */
+.title_box_2
+{
+    width: 400px;
+}
+.person_box
+{
+    display: flex;
+    justify-content: space-between;
+    width: 740px;
+    flex-wrap: wrap;
+}
+.person_block{
+    width: 360px;
+}
+.arrow_button
+{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: start;
+}
+/* Секция 7 */
+.block_items
+{
+    width: 400px;
+}
+.textblock
+{
+padding: 30px;
+}
+.date
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 151% */
+
+
+color: #6F7278;
+}
+.block_panel
+{
+    display: flex;
+    justify-content: center;
 }
