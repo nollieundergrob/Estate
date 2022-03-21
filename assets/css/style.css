@@ -1,0 +1,296 @@
+/* Подключение шрифтов */
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  
+}
+*{
+    padding: 0;
+    margin: 0;
+}   
+body
+{
+    font-family: 'Poppins';
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+.header
+{
+    width: 100%;
+    background: #FFFFFF;
+box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.05);
+border-radius: 0px;
+position: fixed;
+z-index: 10;
+
+}
+.container
+{
+   max-width: 1200px;
+    margin: 0 auto;
+}
+.menu_list
+{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu_link
+{
+    color: black;
+    text-decoration: none;
+}
+.wrapper_header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.scrollbutton:hover
+{
+transform: scale(1.1);
+}
+/* Секция 1 */
+.page_section1
+{
+background-image: url(../img/png/index/background_intro.png);
+height: 800px;
+display: flex;
+justify-content: end;
+align-items: center;
+}
+.title_intro_text
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    /* or 140% */
+    
+    text-align: center;
+    
+    color: #45525B;
+}
+.wrapper_intro
+{
+    padding-top: 100px;
+    margin: 0 auto;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.scrollbutton
+{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    transition: 0.3s;
+}
+.intro_logo
+{
+    width: 128px;
+    height: 102px;
+}
+/* Секция 2 */
+.graysection
+{
+    background: #FAFAFC;
+border-radius: 0px;
+}
+.title_box
+{
+    width: 500px;
+}
+.orange_sub-title
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 140% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FF8A63;
+}
+
+.px48title
+{
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 53px;
+/* or 110% */
+
+
+color: #45525B;
+
+}
+.wrapper_section
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0px;
+}
+.text_box
+{
+    width: 600px;
+}
+.person_row
+{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.biodata
+{
+    padding-left: 10px;
+}
+.bio
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 140% */
+    
+    
+    color: #45525B;
+}
+.position
+{
+    ont-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+/* identical to box height, or 140% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #6F7278;
+
+}
+/* Секция 3 */
+.wrapper_section_middle
+{
+    padding: 100px 0px;
+}
+.px36title
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 43px;
+/* identical to box height, or 120% */
+
+text-align: center;
+
+color: #45525B;
+}
+.text_align_center
+{
+    text-align: center;
+}
+.px18discription
+{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 120% */
+    
+    text-align: center;
+    
+    color: #6F7278;
+    
+}
+.wrapper_section_middle
+{
+    margin: 0 auto;
+    width: 800px;
+}
+.center_text
+{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.black_title
+{
+    width: 600px;
+    margin: 0 auto;
+}
+.content-box
+{
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+.px14discription
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 140% */
+
+
+color: #6F7278;
+}
+.list_box
+{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list_name
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 140% */
+
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #45525B;
+}
+.item_lb
+{
+width: 260px;
+transition: 0.5s;
+padding: 21px;
+}
+.selected_lb
+{
+    background: #FAFAFC;
+    border: 1px solid rgba(202, 204, 209, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+/* Секция 4 */
+    .background_picture
+{
+    height: 600px;
+    background: url(../img/png/index/section4.png) no-repeat center center/cover;
+}
